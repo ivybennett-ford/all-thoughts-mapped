@@ -1,0 +1,1 @@
+An [[emotion]] induced by external stimulus in [[concert]] with internal chemical fluctuation in [[the-brain]].

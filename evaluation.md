@@ -1,0 +1,3 @@
+---
+alias: evaluation, evaluate, evaluator
+---

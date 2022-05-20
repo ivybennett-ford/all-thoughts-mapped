@@ -1,0 +1,2 @@
+On relationships: Successful selling-solution relationships are ongoing, thoughtful and communicative.
+	- Needs can only be identified through ongoing dialogue, which does not stop after annual subscription renewal

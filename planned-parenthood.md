@@ -1,0 +1,1 @@
+Planned Parenthood is an orgranisation which currently offers wellness services like medical exams, perscriptions, procedures, and counseling for 

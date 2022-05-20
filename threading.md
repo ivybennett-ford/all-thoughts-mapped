@@ -1,0 +1,3 @@
+In fact, this [thread](https://twitter.com/syncretizm/status/1513794499528441863?t=a_vT_Q_FkxECoF0rwR_ibw&s=19) is a great example of [[threading]]. Information is appended in a chain of connected ideas.
+
+The person in the thread claims that the task of processing [[knowledge]] is monumental -- that our [[memory]] buffers can only sustain so much. Ultimately, they say, it comes down to a question of [[convergence]] and [[divergence]].

@@ -1,0 +1,7 @@
+---
+tags:
+  - film
+  - cinema
+  - art
+---
+

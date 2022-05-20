@@ -1,0 +1,7 @@
+[[zettlekasten]]
+[[common-book]]
+[[anti-journal]]
+[[wireframes]]
+[[junk-journals]]
+[[learn-in-public]]
+[[why-you-should-be-paid-to-read]]

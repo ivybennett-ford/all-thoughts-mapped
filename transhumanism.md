@@ -1,0 +1,3 @@
+Transhumanism is a branch of philosophy and engineering that supports 'human-enhancement technology.' Eye-glasses, hearing-aids, reconstructive surgery, to name a few, represent the 'enhancement' aspect of transhumanism. When talking about transhumanism, the nature of [[power]] must also be interrogated. Who decides what constitutes an enhancement over existence? Who decides the extent of humanity before technology intercedes and an [[actor]] is suddenly no longer a mere human being? 
+
+Studying transhumanism reveals many friction points between 

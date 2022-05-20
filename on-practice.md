@@ -1,0 +1,1 @@
+[[practice]] does not make you perfect. Practice makes you become something new. Some people subscribe to a worldview in which there are rules about fate and destiny. [[story-telling|stories]] are told which describe the [[mechanics-of-the-unseen]], the [[mystery]] of a life well-lived.

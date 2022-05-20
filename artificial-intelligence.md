@@ -1,0 +1,1 @@
+Artificial Intelligence (AI) is the pursuit of building machines with [[information]] processing capabilities indistinguishable from the human [[the-brain|brain]].

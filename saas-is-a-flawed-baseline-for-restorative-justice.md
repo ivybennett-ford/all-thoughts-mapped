@@ -1,0 +1,1 @@
+Software as a service (SaaS) is a flawed baseline model for restorative justice. A [[tool]], any tool, might be designed an adopted for use in a high-stakes environment. Its adoption does not implicate improvement, or even a [[measurement|measurable]] difference.

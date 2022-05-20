@@ -1,0 +1,7 @@
+[[design]]
+[[capitalism]]
+[[human-centered]] and [[value-centered-design]]
+[[freedom]]
+[[white-supremacy|white-supremacy]]
+[[equity|equity]]
+[[black-radical-practice]]

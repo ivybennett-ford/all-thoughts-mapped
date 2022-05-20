@@ -1,0 +1,1 @@
+This is my first note in obsidian. Obsidian is a personal [[knowledge]] management system. There are many such systems, and I am trying this one out.

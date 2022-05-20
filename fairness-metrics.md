@@ -1,0 +1,1 @@
+Measuring [[fairness]] can be difficult. The [[legality-of-fairness]] is called into question when deciding to use [[algorithm|algorithmic]] or social fairness metrics.

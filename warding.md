@@ -1,0 +1,3 @@
+Evelyn Waugh called the preparations made by wealthy white travelers against sea-sickness "civilized witchcraft" in *Vile Bodies.*
+
+Although this is wildly funny, it oozes the kind of critique that only someone thinking like the Lost Generation could make from the safe ensconsement of a booth in a boulangerie: that pretensions to [[white-supremacy|white-supremacist]] behavior are [[ritual|rituals]] learned under [[capitalism|capitalism]], and that they represent the consequence of [[primitive-accumulation]]. [[accumulation]] clogs the pores of the capitalist.

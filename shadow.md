@@ -1,0 +1,2 @@
+- Literally, the disruption between a light [[source]] and a plane cast by an object
+- Metaphorically, the [[anima]], the spirit inside us. The follower. A disruption in shape and fate cast by action and perspective. In some ways, [[magic]].

@@ -1,0 +1,11 @@
+# Art under the conditions of enslavement and forced labor
+[[weaving]]
+[[peru]]
+[[story-quilts]]
+[[solidarity]]
+[[work]]
+[[labor]]
+[[design]]
+[[trauma]]
+[[enslavement]]
+[[colonialism|settler-colonialism]]

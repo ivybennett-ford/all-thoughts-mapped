@@ -1,0 +1,1 @@
+Kriging is a method of [[data]] analysis in which geo-spatial units are 

@@ -1,0 +1,1 @@
+-   "The more specific the list of attributes, the more defined the characteristic, the lesser the humanity.” - Leila Taylor, Darkly: Black History and America’s Gothic Soul

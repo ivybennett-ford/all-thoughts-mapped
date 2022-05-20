@@ -1,0 +1,4 @@
+---
+alias: marx, marxism, marxist
+---
+

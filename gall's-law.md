@@ -1,0 +1,4 @@
+>"A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system." - John Gall
+
+For complex systems, it is sometimes best to begin from simple first-principles. The wording is incomplete. Complex systems grow from 'simple' [[design|designs]], it is a reductive take. [[knowledge]] is gathered from a very complex set of experiences -- observations, ideas, thoughts -- none of which can occur without the aid of futher complex systems (i.e. [[the-brain]]) that even now lie outside the bounds of total comprehension. But that's what exploration is for!
+It should be noted that Gall's perspective was developed in his book Systemantics. 

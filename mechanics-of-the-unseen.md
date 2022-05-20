@@ -1,0 +1,3 @@
+In my [[knowledge]] base, the [[mechanics-of-the-unseen]] are the tools that make publishing, and pushing easier. The ability some people have to synthesize work and share it, to [[learn-in-public]], feels uncanny. It feels spooky. And while I would love to be able to emulate that, it can be *hard*; whether my inattention and [[ADHD]] brain pull me from one direction to another, or a [[trauma]] fugue settles over me, [[the-maps-don't-work-here-{{working-title}}]]. 
+
+Consequently, some actions need to be automated, or at least rigorously drilled into my workflow, so that anything can get done.
