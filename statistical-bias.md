@@ -1,16 +1,45 @@
-### 4/22 Meeting notes with NS
-- Define bias more generally
-- Working definition
-- Use this article as backbone
-	- https://docs.google.com/document/d/1jvQ6-x9muOdpGrMgUgi21Q571ZKEPq4a_HZKYa2vEsc/edit
-	- Nonrepresentative could lead to false or not useful conclusions
-- Replace 'prejudice' with 'preference?'
+### What is statistical bias?
 
-### What is statisticsl bias?
-Statistical bias refers to misaprehensions, and misreportage. Identifiying bias means harm-reduction.
+By Ivy Bennett-Ford and Nicholas Shea
 
-[[Biases]] come in many shapes and sizes, and are informed by aspects of our identity and experience. The [[matrix-of-domination]] is a helpful [[story-telling|narrative]] we can use to measure the magnitude of bias. 
+It's remarkable how much havoc numbers can wreak. Tiny numbers, just the distance from one point to another can cause such chaos! A bias is the result of preferential treatment in situations that call for as little preference as possible. They come in many dimensions and magnitudes; they are informed by aspects of our identities. Statistical bias is the consequence of decision-making from inaccurate or misrepresentative data.
 
-When we talk about statistical bias, we refer to the misapprehension of a statistic, of a measurement which fails to report meaningful information. It is this failure which represents such disasterous consequences in a data-science endeavor. 
+Reliable data science experiments depend on a lot of factors.  It's crucial that the experiment is designed so that it can actually be performed. The designer needs to consider how data will be collected, from where, and when, the people that will be called upon to do the collecting, how that data gets stored and processed. Without a thoughtful experimental design, mistakes can happen quickly and with potentially disastrous consequences. The experiment might be performed along deadlines, or at the same time as other work, making resource-management a pressing concern as well.
 
->Statistical bias implies data reportage which belies fact. It can arise from a faulty ground-truth--when data scientists assume a prior which may be incongruous with historical evidence. It may manifest as a value which manfest like a flase negative rate in the lead question -- the presence of lead is incorrectly predicted based on statistics previously fed to the model. 
+Statistical bias can emerge from even the most well-intentioned studies. Collection methods might focus too narrowly on specific distributions. A geographic region in a city, for example,  might be over-represented for a trait of interest on a map while other areas remain under-sampled. When that spatial data is used to inform policy decisions, say with budgeting for after-school programs within a school district, that bias becomes apparent in the distribution of resources across the map.
+
+At BlueConduit, one of our primary offerings are predictive analytics about the presence of lead in water sources on a parcel-by-parcel case for Lead Service Line Inventory and Replacement Programs. Our metrics help cities make the kind of hard decisions about resource allocation to get lead out of the ground as quickly as possible. Our machine learning models are directly informed by housing and historical sampling data supplied by our contacts in your community's government. We consider things like the age of home in which you live, the kind of building it is, whether previous inspections have been conducted on the parcel property. There's a lot to consider, and the models are being fine-tuned all the time as new, updated information is sent to us.
+
+The reality of statistical bias is one of our biggest concerns; the trouble is that bias creeps. It can arise from data scientists assuming ground-truths from faulty priors and train models on inaccurate data. It crops up from historical information which misrepresents the impact of policy choices. It's fueled by people being people, making people choices.
+
+Fortunately, BlueConduit is well-positioned to take steps to mitigate bias. When we begin working with communities across the country, we are furnished with a lot of historical information. Cities tend to be excellent record-keepers, so we usually have access to very comprehensive housing information before digging into the data aspect of the customer journey.
+
+Using these housing attributes we can actually measure the distance between our sample of selected service lines and the population of all service lines in the community, and the likelihood that the sample was actually performed uniformly at random. A random sample should look roughly like the population - if the average structure in a town is 100 years old and 2000 square feet, then our sample average should be in that neighborhood. If the sample average is very far away, it could be an indication that the sample was not taken uniformly at random.
+
+The idea that we can learn something about the whole from a small part of the whole is pretty fundamental in statistics. We can’t inspect all service lines. But it’s well established that we can inspect some service lines and then make fairly good predictions about the rest.
+
+The logical next question is how to select some service lines to make the best possible predictions about the rest. Turns out that sampling uniformly at random, where each service line has an equal probability of getting selected, is a pretty good answer. When we sample uniformly at random it’s almost like we give every service line a name and all the names go into a large hat, then we draw a hundred or so to go inspect. This is where resource allocation comes into play.
+
+BlueConduit is primarily interested in the potential quantities of lead in a given parcel. Several kinds of data can inform how we learn about that outcome -- historical service line inventory data, housing and tax information, and water sampling data. You may have performed a water sampling procedure in your home, filled a bottle and sent it off to a lab to have the water tested for lead in parts per billion. Now, we want to describe how important it is for data to be collected from as many sources as possible.
+
+We understand that it takes time, money, and patience to perform scientific observations. It is a huge undertaking to collect data points. This is why predictive modeling can be so useful: we know that there are $n$ number of locations which may or may not contain a lead service line. Some of those locations may have been ruled out as lead-free, some may be labeled as lead-free incorrectly in historical records, and some might remain open questions. It is our job to maximize the number of found lead service line pipes, and hopefully minimize the number of times crews must be sent out to perform costly inspections and excavations on sites with no lead.
+
+We can *approximate* how much lead remains in a city by applying statistical methods in our machine learning models to predict the locations most likely to contain a lead pipe. The most rigorous sampling method available to us is to perform uniform random sampling, where collection sites are scattered all over the city. Unfortunately, this does not always happen. Often, the sample is selected in a way that subtly depends on the probability that we discover a lead pipe in the ground, which is what we've set out to determine in the first place.
+
+This is pretty powerful; No other company offers this service quite like BlueConduit. Our company holds CRITICAL values that are closely aligned with the work we do. This helps us reframe the problem of incomplete data as solvable, as a lead-free city as achievable.
+
+When cities serve us data, we clean it before doing anything else. This step is really important, and what we do to the data at the beginning of the process will be recorded and followed through the whole analysis process. It's part of our proprietary library of tooling. Some of these tools may be open sourced in the near future, since we believe it’s so important to address this, especially in safety-critical machine learning applications.
+
+We care very deeply about equity and algorithmic bias. We have several statistics experts in house that ensure we are using the best techniques and applying them responsibly. BlueConduit understands that data tools for public health and safety, like our machine learning models for finding lead pipes, have implications beyond software. The communities in which we live and work are in the process of recovering not just from lead in the ground, but also from a long history of systemic injustice and broken trust. Jim Crow era policies like block-busting, red lining, and unfair zoning codes have had dire public health implications for already under-served communities.
+
+It was made clear in Flint that communities which lacked representation were the most vulnerable to faulty testing and sampling, leading to a massive crisis of health and faith. It is our hope that designing historically-aware predictive models will have outcomes that support trust-building between community members and their governments. Among so many other reasons, this is why debiasing sample data can be so critical.
+
+After running our models on data provided by cities, the next step in the pipeline is to look at the model output and determine if the distributions look random enough. Statistics helps us here too -- there are reliable significance levels we can use to tell us if our models are performing well enough. If we think there is cause for concern, from among our tool library, we can perform a custom debiasing step, a module written expressly for ameliorating the dangers of statistical bias.
+
+In a debiasing step, we apply math to reshape the data, forcing the distribution into a more uniformly random coverage. We do this with the knowledge that available samples are susceptible to bias at many stages of the collection process. It is possible to over-correct for missing data, implying that an over-sampled label is actually under-sampled and vice versa. But debiasing is nonetheless a crucial component of ethical data decision-making.
+
+Statistical bias is an issue that must be worked at, and hard, to overcome. Avoiding its pitfalls demands contextual understanding of the client-city's background. Responsive, descriptive models are necessary so that the analysis is as transparent as possible. The reality is that bias might never be totally eradicated from raw samples. But BlueConduit tries to make this process as accessible as possible so that more and more samples may be amassed.
+
+The most straightforward path to overcoming statistical bias, as well as many other kinds of bias, is to encourage frequent and randomized data collection: from inspections, excavation and replacement, as well as water quality data, which can be collected in your home, from your faucet, after just a few minutes of flushing. Uniform and random sampling will help raw data describe as realistic a picture as possible of your home towns' water supply, bringing inventories closer to successful completion.
+
+Calling upon BlueConduit to design predictive models tailored to your city's unique history represents savings made in public utility. We are a company that wants to put itself out of business by minimizing the effects of the problems we address. And we are okay with that!

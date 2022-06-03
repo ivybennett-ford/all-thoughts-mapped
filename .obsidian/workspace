@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf9e713a35fb0b15",
+        "id": "08f4009095621b2a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "use-it-or-lose-it-with-nicolevanderhoeven.md",
-            "mode": "source",
-            "backlinks": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bc-working",
+                "query": "exh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -78,14 +74,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "use-it-or-lose-it-with-nicolevanderhoeven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "time",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -113,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "use-it-or-lose-it-with-nicolevanderhoeven.md"
-              }
+              "state": {}
             }
           },
           {
@@ -124,6 +117,17 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "ac56eb15ede00800",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
             }
           }
         ],
@@ -139,11 +143,10 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "use-it-or-lose-it-with-nicolevanderhoeven.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 1,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -162,42 +165,41 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3556931346990582,
+                  "scale": 0.2625602703267285,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "1b562ec775a75531",
+            "id": "e9264dde7fad4208",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/05-20-2022.md",
+                "file": "Workbench.md",
                 "mode": "source",
                 "backlinks": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 314.5
   },
-  "active": "bf9e713a35fb0b15",
+  "active": "08f4009095621b2a",
   "lastOpenFiles": [
-    "use-it-or-lose-it-with-nicolevanderhoeven.md",
-    "dismantling-white-supremacist-culture-means-less-work-for-Black-knowledge-workers.md",
-    "neoliberal-efficiency-model.md",
-    "survey-draft.md",
-    "bc-working-group.md",
-    "cultural-politics-of-emotion.md",
+    "design.md",
     "Workbench.md",
-    "daily/05-20-2022.md",
-    "daily/05-19-2022.md",
-    "rossant-awesome-math-resources.md"
+    "dismantling-white-supremacist-culture-means-less-work-for-Black-knowledge-workers.md",
+    "statistical-bias.md",
+    "reading-mgmt-kanban.md",
+    "Untitled.md",
+    "what-the-eyes-dont-see.md",
+    "what-the-eyes-dont-see.md",
+    "bc-culture-and-dei-with-ND.md",
+    "bc-dei-leadership-with-ian.md"
   ]
 }

@@ -9,6 +9,31 @@
       "type": "file",
       "title": "design",
       "path": "design.md"
+    },
+    {
+      "type": "file",
+      "title": "bc-working-group",
+      "path": "bc-working-group.md"
+    },
+    {
+      "type": "file",
+      "title": "dei-workbench",
+      "path": "dei-workbench.md"
+    },
+    {
+      "type": "file",
+      "title": "to-do-ahead-of-visits",
+      "path": "to-do-ahead-of-visits.md"
+    },
+    {
+      "type": "file",
+      "title": "coffee-kanban",
+      "path": "coffee-kanban.md"
+    },
+    {
+      "type": "file",
+      "title": "reading-mgmt-kanban",
+      "path": "reading-mgmt-kanban.md"
     }
   ]
 }
